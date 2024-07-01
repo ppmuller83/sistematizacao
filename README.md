@@ -7,7 +7,7 @@ RA: 72401544;
 Turma B - 0424 - Virtual;
 
 ### :movie_camera: Links para o vídeo de apresentação:
-https://youtu.be/Y-bejBm9cos
+[https://youtu.be/Y-bejBm9cos](https://www.youtube.com/watch?v=ZTWTVd5Pka0)
 
 ### Link para arquivo PDF:
 https://drive.google.com/file/d/1Ccek1TEL7Ywt-y8LYKS4BXLXxV8zs1ql/view?usp=sharing
