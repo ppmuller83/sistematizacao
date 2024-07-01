@@ -27,16 +27,20 @@ Version: 2024-03 (4.31.0)
 
 ## Descrição do Sistema
 
-**Classe empregados_mgs:** Esta classe representa um empregado. Ela tem vários atributos privados para armazenar informações sobre um empregado, como matrícula, nome, telefone, email, contato de emergência, alergias, problemas médicos e plano de saúde.
+**Classe empregados_mgs:** Esta classe representa um empregado. Ela tem vários atributos privados para armazenar informações sobre um empregado, como matrícula, nome, telefone, email, contato de emergência, alergias, problemas médicos e plano de saúde;
 
-**Construtor:** O construtor da classe empregados_mgs é usado para inicializar os atributos do objeto empregado quando um novo objeto é criado.
+**Construtor:** O construtor da classe empregados_mgs é usado para inicializar os atributos do objeto empregado quando um novo objeto é criado;
 
-**Método exibirInformacoes():** Este método é usado para exibir as informações do empregado.
+**Método exibirInformacoes():** Este método é usado para exibir as informações do empregado;
 
-**Método getMatricula():** Este método é um ‘getter’ que retorna a matrícula do empregado.
+**Método getMatricula():** Este método é um ‘getter’ que retorna a matrícula do empregado;
 
 **Método main():** Este é o ponto de entrada do programa. Ele contém um loop infinito que apresenta um menu de opções para o usuário:
+
 Opção 1: Adicionar um novo empregado. O usuário é solicitado a fornecer todas as informações do empregado. Um novo objeto Empregados é criado e adicionado à lista de empregados.
+
 Opção 2: Exibir informações de um empregado pela matrícula. O usuário é solicitado a fornecer a matrícula do empregado. O programa percorre a lista de empregados para encontrar o empregado com a matrícula fornecida e exibe suas informações.
+
 Opção 3: Sair do programa.
+
 Qualquer outra opção é considerada inválida e o usuário é solicitado a tentar novamente.
