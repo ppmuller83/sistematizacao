@@ -1,4 +1,4 @@
-![image](https://github.com/ppmuller83/poo_sistematizacao/assets/169911733/a499be28-16de-4df8-a4c0-9abb96e5d55e)
+![image](https://github.com/ppmuller83/sistematizacao/assets/169911733/610366a6-ba0d-4773-9333-9052c20682a1)
 
 # Programação Orientada a Objetos
 
