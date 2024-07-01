@@ -26,14 +26,17 @@ Eclipse IDE for Java Developers
 Version: 2024-03 (4.31.0)
 
 ## Descrição do Sistema
-**1. package sistematizacao_poo;:** Este é o pacote no qual a classe empregados está contida.
 
-**2. public class empregados { ... }:** Aqui é definida a classe empregados. Tudo que está entre as chaves {} faz parte desta classe.
+**Classe empregados_mgs:** Esta classe representa um empregado. Ela tem vários atributos privados para armazenar informações sobre um empregado, como matrícula, nome, telefone, email, contato de emergência, alergias, problemas médicos e plano de saúde.
 
-**3. Atributos:** Dentro da classe empregados, temos vários atributos privados, como "Matrícula", "Nome", "Telefone", "E-mail","Nome do contato de emergência", "Telefone do contato de emergência", "Alergias", "Problemas médicos" e "Plano de Saúde". Esses são os dados que cada objeto da classe empregados vai armazenar.
+**Construtor:** O construtor da classe empregados_mgs é usado para inicializar os atributos do objeto empregado quando um novo objeto é criado.
 
-**4. Constructor:** Em seguida, temos um construtor para a classe empregados. Este construtor é um método especial que é chamado quando um novo objeto da classe empregados é criado. Ele recebe vários parâmetros e usa esses parâmetros para inicializar os atributos do objeto.
+**Método exibirInformacoes():** Este método é usado para exibir as informações do empregado.
 
-**5. O método exibirInformacoes():** Método público que exibe as informações do empregado. Ele usa o comando System.out.println para imprimir as informações na saída padrão.
+**Método getMatricula():** Este método é um ‘getter’ que retorna a matrícula do empregado.
 
-**6. O Método main():** Onde um novo objeto da classe empregados é criado e o método exibirInformacoes() é chamado, o que resultará na impressão das informações do empregado no console.
+**Método main():** Este é o ponto de entrada do programa. Ele contém um loop infinito que apresenta um menu de opções para o usuário:
+Opção 1: Adicionar um novo empregado. O usuário é solicitado a fornecer todas as informações do empregado. Um novo objeto Empregados é criado e adicionado à lista de empregados.
+Opção 2: Exibir informações de um empregado pela matrícula. O usuário é solicitado a fornecer a matrícula do empregado. O programa percorre a lista de empregados para encontrar o empregado com a matrícula fornecida e exibe suas informações.
+Opção 3: Sair do programa.
+Qualquer outra opção é considerada inválida e o usuário é solicitado a tentar novamente.
